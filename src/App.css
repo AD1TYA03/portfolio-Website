@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+*{
+    color: aliceblue;
+    background-color: #111;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+    background-image: url(./bg.png);
+    background-color: #111;
+    display: flex;
+   height: 810px;
+   width: 1440px;
+}
+.name{
+    color: #ffb400;
+    margin-top: 250px;
+    margin-bottom: 0px;
+    padding-left: 150px;
+}
+.role{
+    margin-top: 0px;padding-left: 220px;
+}
+.details{
+    height: 160px;
+    width: 700px;
+}
+.intro{
+   padding-left: 20px;
+  display: inline;
+
+   
+}
+.profilePic{
+    display: inline-block;
+    background-image: url(https://media.istockphoto.com/photos/close-up-photo-handsome-he-him-his-guy-coder-make-take-selfies-blog-picture-id1163541636?b=1&k=20&m=1163541636&s=170667a&w=0&h=Q5yFYh9uAEm0zjX8DVt0MXL05XF7yRjSzAHKlEOM02k=);
+  background-size: cover;
+  background-position-x: -280px;
+    background-color: #ffb400;
+   height: 650px;
+   width: 400px;
+   margin-top: 90px;
+   margin-left: 50px;
+   border-radius: 12px;
+}
+button {
+    border-style: none;
+    background-color: transparent ;
+    color: #ffb400;
+}
+button:hover{
+    color: black;
+}
+.navBar{
+    margin-top: 200px;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+a {
+    text-align: right;
+    text-decoration: none;
+    color: #ffb400;
+    
+    
+    display: contents;
+   
+}
+a:hover{
+    
+    color: black;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+li{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    border-color: #ffb400;
+    border-radius: 2px;
+    border-style: solid;
+list-style: none;
+margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li:hover{
+    color: black ;
+    background-color: #ffb400;
+    
+    
+}
+.navBar ul li:hover{
+   color: black;
+}
+.about{
+    display: inline;
+    color: #ffb400;
+}
+.styles_typicalWrapper__1_Uvh{
+    margin-top: 0px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*css for about section*/
+
+
+.title-bg {
+    font-size: 75px;
+    left: 0;
+    letter-spacing: 10px;
+   padding-left: 10%;
+    transform: translateY(-135%);
+    position: absolute;
+    right: 0;
+    top: 20%;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+   
+    color: hsla(0,0%,100%,.07);
+}
+.col{
+    color: #ffb400;
+   
+
+}
+.heading{
+    display: inline-flex; 
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 6%;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+    font-size: large;
+    text-align: center;
+  
+}
+.space{
+    padding-left: 40px;
+}
+.card{
+  display: block;
+   height: 200px;
+   width: 200px;
+    padding-left: 40px;
 }
